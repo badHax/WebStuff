@@ -1,0 +1,37 @@
+#photo{
+	position: relative;
+	height: 180px;
+	width: 110px;
+	top: 0px;
+	right: -40px;
+	float: clear;
+	margin: auto;
+
+}
+#background{
+	background: url("../background.jpg");
+	height:1000px;
+	z-index = 3;
+}
+
+#page-content-wrapper{
+	background-color: #000;
+	z-index: 1;
+	color:white;
+	}
+
+.page-content-wrapper2{
+	padding-left: 20px;
+	margin-top: 50px;
+	position:relative;
+	background-color:#0074D9;
+	width: 100%;
+	height: 200px;
+	z-index: 1;
+	color: white;
+	opacity:0.75;
+}
+.page-content-wrapper p{font-size:12px;}
+#page-content3{background-color: green;}
+#page-content4{background-color: purple;}
+#page-content-active{background-color: #FFA500;}
