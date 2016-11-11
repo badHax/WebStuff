@@ -33,4 +33,11 @@ $(document).ready(function(){
 			});
 		}
 		});
+		
+	$("#menu-toggle").on("click",function(){
+		if($(this).text()=== "See More"){ $(this).html("Menu");}
+		else{
+			$(this).html("See More");
+		}
+	});
 }); 
