@@ -17,8 +17,14 @@
     <!-- Custom CSS -->
     <link href="css/simple-sidebar.css" rel="stylesheet">
 	
+	<!-- Custom Icons -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+	
 	<!-- Personal Css -->
 	<link href="css/style.css" rel="stylesheet">
+	
+	<!-- Developer Icons -->
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,74 +42,97 @@
 			<div id="sidebar-wrapper">
 				<ul class="sidebar-nav">
 				<li>
-				<img src = "photo.jpg" id = "photo"/>
+					<img src = "photo.jpg" id = "photo"/>
 				</li>
-					<li class="sidebar-brand">
-						<a href="#">
-							Odain Chevannes
-						</a>
-					</li>
-					<li>
-						<a href="#">Dashboard</a>
-					</li>
-					<li>
-						<a href="#">Shortcuts</a>
-					</li>
-					<li>
-						<a href="#">Overview</a>
-					</li>
-					<li>
-						<a href="#">Events</a>
-					</li>
-					<li>
-						<a href="#">About</a>
-					</li>
-					<li>
-						<a href="#">Services</a>
-					</li>
-					<li>
-						<a href="#">Contact</a>
-					</li>
+				<li class="sidebar-brand">
+					Odain Chevannes
+				</li>
+				<li>
+					<a id = "home" href="#intro">Intro<i class = "fa fa-home fa-2x"></i></a>
+				</li>
+				<li>
+					<a id="me" href="#about">About Me<i class = "fa fa-user fa-2x"></i></a>
+				</li>
+				<li>
+					<a id="request" href="#contact">Request a Project<i class = "fa fa-gears fa-2x"></i></a>
+				</li>
+				<li>
+					<a id ="skill" href="#skills">Skills<i class = "fa fa-star fa-2x"></i></a>
+				</li>
+				<li>
+					<a id="call" href="#contact">Contact<i class = "fa fa-phone-square fa-2x"></i></a>
+				</li>
 				</ul>
 			</div>
 			<!-- /#sidebar-wrapper -->
 
 			<!-- Page Content -->
-			<div id = "background">
+	<div id = "background">
 			<div class="page-content-wrapper" id ="page-content-wrapper">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-lg-12">
-							<h1>Sample header</h1>
-							<p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
-							<p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
+							<div id="intro">
+							<h1>Hi! I'm Odain</h1>
+							<p>An enthusiastic budding software developer. I enjoy building anything new. When I’m not <code>#coding</code>, you can find me exploring new ideas. Want to work together? I’d love to hear from you.</p>
 							<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<!-- /#page-content-wrapper -->
-		<div class = "page-content-wrapper2" id="page-content2">
-		<h1>Content</h1>
-		<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+		<div  id ="about" class = "page-content-wrapper2" id="page-content2">
+			<h1>About Me</h1>
+			<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
 		</div>
 		<!--content-area2-->
-		<div class = "page-content-wrapper2" id="page-content3">
-		<h1>Content</h1>
-		<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-		</div>
+		<div id= "skills" class = "page-content-wrapper2" id="page-content3">
+			<h1>Skills</h1>
+			<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+			<i class="devicon-linux-plain fa-5x"></i>
+			<i class="devicon-bootstrap-plain fa-5x"></i>
+			<i class="devicon-git-plain fa-5x"></i>
+			<i class="devicon-javascript-plain fa-5x"></i>
+			<i class="devicon-html5-plain fa-5x" ></i>
+			<i class="devicon-android-plain fa-5x"></i>
+			<i class="devicon-mongodb-plain fa-5x"></i>
+			<i class="devicon-php-plain fa-5x"></i>
+			<i class="devicon-python-plain fa-5x"></i>
+			</div>
 		<!--content-area3-->
 		<div class = "page-content-wrapper2" id="page-content4">
-		<h1>Content</h1>
-		<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+			<h1>Always Learning...</h1>
+			<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
 		</div>
 		<!--content-area4-->
 		</div>
+		<div id="contact">
+			<h1>Contact Me</h1>
+			<form id="form-left" action="action_page.php">
+				  First name:<br>
+				  <input type="text" name="firstname" value="Mickey">
+				  <br>
+				  Last name:<br>
+				  <input type="text" name="lastname" value="Mouse">
+				  <br><br>
+				  <input class = "btn btn-default form" type="submit" value="Submit">
+			</form>
+			<form id="form-right" action="action_page.php">
+				  Email:<br>
+				  <input type="text" name="email" value="someonne@example.com">
+				  <br>
+			</form>
 		<!--background-->
+		</div>
+		<!--contact-->
 		</div>
     <!-- /#wrapper -->
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+	
+	<!--personalized script-->
+	<script src="js/style.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
